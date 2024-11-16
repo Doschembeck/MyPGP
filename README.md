@@ -1,6 +1,7 @@
 # MyPGP - Le Chiffrement PGP, Simplifié et Accessible 🔐📱
 
-Bienvenue sur **MyPGP**, l'application mobile qui révolutionne le chiffrement PGP en le rendant simple et intuitif. Que vous soyez un particulier souhaitant protéger sa vie privée ou un professionnel manipulant des données sensibles, MyPGP est là pour sécuriser vos communications.
+Bienvenue sur **MyPGP**, l'application mobile qui révolutionne le chiffrement PGP en le rendant simple et intuitif. **Actuellement en phase de bêta**, MyPGP est encore en cours d’amélioration grâce à vos retours précieux.  
+**Le code source de l'application sera rendu accessible sous licence GPL-3.0 lors de sa sortie officielle**, reflétant notre engagement pour la transparence et la sécurité.
 
 ---
 
@@ -11,6 +12,31 @@ Dans un monde où la **surveillance de masse**, les attaques de phishing et les 
 - **L’assurance de l’intégrité et de l’authenticité des messages** grâce à un système avancé de signatures numériques.
 
 Grâce à une interface intuitive et des termes vulgarisés, l’application démocratise le chiffrement PGP pour le rendre compréhensible et utilisable par tous, même pour les non-initiés.
+
+---
+
+## 🔑 **Fonctionnalités Actuelles**
+Voici les fonctionnalités déjà disponibles dans MyPGP pour vous aider à sécuriser vos communications :
+
+1. **Chiffrement et déchiffrement des messages** :
+   - Sécurisez vos messages pour qu’ils soient lisibles uniquement par le destinataire prévu.
+2. **Signature électronique des messages** :
+   - Garantissez l’authenticité et l’intégrité des messages envoyés.
+3. **Gestion des contacts (clés publiques)** :
+   - Ajoutez des clés publiques pour communiquer avec vos contacts en toute sécurité.
+   - Vérification automatique des signatures pour garantir que les messages reçus sont authentiques.
+4. **Partage rapide des messages** :
+   - Copiez et partagez vos messages chiffrés via les applications populaires comme Telegram, WhatsApp, Signal, WeChat, etc.
+5. **Gestion multi-profils (clés privées)** :
+   - Gérez plusieurs identités numériques pour séparer vos échanges personnels, professionnels ou anonymes.
+6. **Ajout de contacts via QR Code** :
+   - Ajoutez rapidement de nouveaux contacts en scannant leur QR Code.
+7. **Import/export de profils (clés privées)** :
+   - Sauvegardez vos clés privées en local pour les restaurer ou les transférer sur un autre appareil.
+8. **Protection des clés privées par mot de passe** :
+   - Sécurisez vos clés privées avec une phrase de passe personnalisée.
+9. **Création automatique d’un profil** :
+   - Lors de la première utilisation, une paire de clés (publique/privée) est générée automatiquement pour vous permettre de commencer rapidement.
 
 ---
 
@@ -59,37 +85,6 @@ Les applications comme WhatsApp, Telegram, Signal ou WeChat utilisent souvent de
 
 ---
 
-## 🔒 **Cas d’Usage : Pourquoi utiliser MyPGP ?**
-MyPGP répond à des besoins variés, aussi bien personnels que professionnels :
-
-### 1️⃣ **Discussions réellement privées**
-Partagez des messages ou des informations sensibles avec une ou plusieurs personnes sans dépendre de tiers comme WhatsApp, Telegram ou WeChat. Vous êtes seul responsable de la sécurité de vos échanges.
-
-### 2️⃣ **Partage rapide d'informations critiques**
-- **Mots de passe** : Transférez des mots de passe ou des informations sensibles à vos contacts en toute sécurité.
-- **Données financières** : Partagez des coordonnées bancaires ou des informations confidentielles sans craindre les interceptions.
-
-### 3️⃣ **Protégez-vous contre la surveillance de masse**
-Dans certaines zones géographiques, la surveillance des communications est omniprésente. MyPGP garantit que vos échanges restent **privés**, même dans les environnements les plus sensibles.
-
-### 4️⃣ **Protégez-vous des attaques de phishing**
-Grâce aux signatures numériques et à la vérification automatique des messages, vous êtes sûr que :
-- Les messages proviennent de la bonne personne.
-- Ils n’ont pas été modifiés pendant la transmission.
-
-### 5️⃣ **Échanges professionnels sécurisés**
-- **Entreprises** : Protégez vos informations confidentielles, plans stratégiques ou contrats.
-- **Indépendants** : Assurez des échanges sécurisés avec vos clients, même via des plateformes courantes.
-
-### 6️⃣ **Interopérabilité avec des outils tiers**
-- **Journalistes et lanceurs d’alerte** : Utilisez MyPGP pour des échanges sécurisés, même avec des outils comme GnuPG.
-- **Experts en cybersécurité** : Échangez des données avec d’autres utilisateurs utilisant des solutions PGP classiques.
-
-### 7️⃣ **Gestion multi-profils**
-Utilisez plusieurs identités numériques (clés privées) sur une seule application pour séparer vos échanges personnels, professionnels ou anonymes.
-
----
-
 ## 📈 **Fonctionnalités à Venir**
 Notre feuille de route est ambitieuse, avec des nouveautés pour enrichir votre expérience :
 
@@ -115,8 +110,10 @@ Notre feuille de route est ambitieuse, avec des nouveautés pour enrichir votre 
 ---
 
 ## 📡 **Disponibilité Actuelle**
-- **Version anticipée** disponible sur le **Google Play Store** :  
+- **Version bêta** disponible sur le **Google Play Store** :  
   [📥 Télécharger MyPGP sur le Play Store](https://play.google.com/store/apps/details?id=com.mypgp.app)
+
+- **Le code source sera disponible sous licence GPL-3.0 lors de la sortie officielle**. Cela garantit une transparence totale et encourage la collaboration.
 
 - La version iOS est en cours de développement et sera bientôt disponible. Restez connectés !
 
